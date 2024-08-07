@@ -13,7 +13,7 @@ connectDB();
 app.use(express.json()); // Replaces body-parser.json()
 
 // Define routes
-app.use('/health', healthRoutes);
+app.use('/', healthRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/products', productRoutes);
 
