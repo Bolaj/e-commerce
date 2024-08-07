@@ -76,7 +76,7 @@ Request Body:
   "name": "Product Name",
   "description": "Product Description",
   "price": 100,
-  "imageURL": "http://example.com/image.jpg"
+  "imageURL": "..link../image.jpg"
 }
 ```
 
@@ -87,7 +87,7 @@ Response:
   "name": "Product Name",
   "description": "Product Description",
   "price": 100,
-  "imageURL": "http://example.com/image.jpg",
+  "imageURL": "..link../image.jpg",
   "createdBy": "user_id",
   "__v": 0
 }
@@ -103,7 +103,7 @@ Response:
     "name": "Product Name",
     "description": "Product Description",
     "price": 100,
-    "imageURL": "http://example.com/image.jpg",
+    "imageURL": "..link../image.jpg",
     "createdBy": {
       "_id": "user_id",
       "username": "username",
@@ -121,7 +121,7 @@ Response:
   "name": "Product Name",
   "description": "Product Description",
   "price": 100,
-  "imageURL": "http://example.com/image.jpg",
+  "imageURL": "..link../image.jpg",
   "createdBy": {
     "_id": "user_id",
     "username": "username",
@@ -140,7 +140,7 @@ Request Body:
   "name": "Updated Product Name",
   "description": "Updated Product Description",
   "price": 150,
-  "imageURL": "http://example.com/updated_image.jpg"
+  "imageURL": "..link../updated_image.jpg"
 }
 ```
 Response:
@@ -150,7 +150,7 @@ Response:
   "name": "Updated Product Name",
   "description": "Updated Product Description",
   "price": 150,
-  "imageURL": "http://example.com/updated_image.jpg",
+  "imageURL": "..link../updated_image.jpg",
   "createdBy": "user_id",
   "__v": 0
 }
